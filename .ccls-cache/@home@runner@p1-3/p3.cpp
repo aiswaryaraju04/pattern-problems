@@ -7,17 +7,17 @@ int main() {
   for(int i=1;i<=row;i++)
     {
       // p=i;
-      int s=1;
-      while(s<=row-i)
-        {
-          cout<<" ";
-          s=s+1;
-        }
+      //int s=1;
+      // while(s<=row-i)
+      //   {
+      //     cout<<" ";
+      //     //s=s+1;
+      //   }
       
-      for(int j=1;j<=i;j++)
+      for(int j=1;j<=row-i+1;j++)
         {
           
-          cout<<"*";
+          cout<<"* ";
           
             
         }
